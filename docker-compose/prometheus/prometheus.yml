@@ -31,6 +31,6 @@ scrape_configs:
          # scheme defaults to 'http'.
 
     static_configs:
-      - targets: ['cadvisor:9323']
+      - targets: ['cadvisor:8080']
         labels:
           group: "docker-container"
